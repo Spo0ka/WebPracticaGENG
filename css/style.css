@@ -1,0 +1,72 @@
+    /* .subscribe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .subscribe-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .join-club {
+    color: #A58721;
+    margin-right: 10px;
+  }
+  
+  .textbox {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .subscribe-button {
+    background-color: #A58721;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  } */
+
+  .icon-image {
+    width: 30px; /* Ajusta el ancho deseado */
+    height: 30px; /* Ajusta la altura deseada */
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    margin-left: -20px; /* Ajusta el valor según tus necesidades */
+  }
+
+  .slide {
+    margin-left: 20px; /* Ajusta el valor según tus necesidades, debe coincidir con el margen izquierdo del contenedor padre */
+  }
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
