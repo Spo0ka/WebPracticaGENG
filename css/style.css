@@ -1,38 +1,6 @@
-    /* .subscribe-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .subscribe-content {
-    display: flex;
-    align-items: center;
-  }
-  
-  .join-club {
-    color: #A58721;
-    margin-right: 10px;
-  }
-  
-  .textbox {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  .subscribe-button {
-    background-color: #A58721;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  } */
-
-  .icon-image {
-    width: 30px; /* Ajusta el ancho deseado */
-    height: 30px; /* Ajusta la altura deseada */
+.icon-image {
+  width: 30px; /* Ajusta el ancho deseado */
+  height: 30px; /* Ajusta la altura deseada */
 }
 
 .slider {
