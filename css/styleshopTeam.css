@@ -1,0 +1,125 @@
+.icon-image {
+    width: 30px; /* Ajusta el ancho deseado */
+    height: 30px; /* Ajusta la altura deseada */
+  }
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px; /* Márgenes entre las imágenes */
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-div {
+    flex: 0 0 calc(25% - 10px); /* Asegura que haya 3 columnas en una fila con márgenes */
+    margin: 0;
+    text-align: center;
+    border: 1px solid #858585;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.letrabonita{
+  font-family: 'Londrina Outline', sans-serif; /* Establece la fuente Londrina Outline */
+  -webkit-text-stroke: 1px black; /* Añade un contorno de 2px en color negro */
+  color: transparent; 
+  text-align: center;
+}
+
+.jersey-name {
+  font-size: 16px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jersey-price {
+  font-size: 16px;
+  color: #A58721;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.image-text1 {
+  position: absolute;
+  top: 700px;
+  left: 360px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+
+.image-text2 {
+  position: absolute;
+  top: 700px;
+  left: 670px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+
+.image-text3 {
+  position: absolute;
+  top: 700px;
+  left: 980px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+
+.image-text4 {
+  position: absolute;
+  top: 700px;
+  left: 1290px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+.image-text5 {
+  position: absolute;
+  top: 1040px;
+  left: 360px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+.image-text6 {
+  position: absolute;
+  top: 1040px;
+  left: 670px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+.image-text7 {
+  position: absolute;
+  top: 1040px;
+  left: 980px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+.image-text8 {
+  position: absolute;
+  top: 1040px;
+  left: 1290px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
+
+.allushin {
+  position: absolute;
+  top: 1040px;
+  left: 820px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+}
