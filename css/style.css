@@ -38,3 +38,38 @@
         transform: translateX(calc(-200px * 7));
     }
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.imgZAPATO{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Cuando el ancho de la pantalla es menor a 1200px */
+@media (max-width: 1200px) {
+    .img-fluid {
+        max-width: 100%; /* Puedes ajustar el porcentaje según tus necesidades */
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-fluid {
+        max-width: 100%; /* Puedes ajustar el porcentaje según tus necesidades */
+        max-height: 100%;
+    }
+    .imgZAPATO {
+        max-width: 150%; /* Ajusta el valor para aumentar el ancho */
+        max-height: 28%;
+    }
+    .img-fluid2 {
+        max-width: 105%; /* Puedes ajustar el porcentaje según tus necesidades */
+        max-height: 100%;
+    }
+    
+    
+}
