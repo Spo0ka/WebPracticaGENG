@@ -13,8 +13,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0px; /* Márgenes entre las imágenes */
+    gap: 0px; 
     padding: 20px;
+    height: auto;
 }
 
 .row {
@@ -123,3 +124,11 @@ img {
   font-family: 'Actor', sans-serif;
   color: white;
 }
+.containerbaja {
+   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+

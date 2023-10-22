@@ -1,6 +1,6 @@
 .icon-image {
-    width: 30px; /* Ajusta el ancho deseado */
-    height: 30px; /* Ajusta la altura deseada */
+    width: 30px;
+    height: 30px; 
   }
   .image-container {
     display: flex;
@@ -14,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0px; /* Márgenes entre las imágenes */
+    gap: 0px; 
     padding: 20px;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .image-div {
-    flex: 0 0 calc(33.33% - 20px); /* Asegura que haya 3 columnas en una fila con márgenes */
+    flex: 0 0 calc(33.33% - 20px); 
     margin: 0;
     text-align: center;
     
@@ -38,4 +38,22 @@ img {
     height: auto;
     display: block;
     
+}
+.Div-Container{
+  max-width: auto;
+  max-height: auto;
+}
+
+@media (max-width: 767px) {
+  .Div-Container{
+    max-width: 150%;
+    max-height: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .Div-Container{
+    max-width: 100%;
+    max-height: auto;
+  }
 }
