@@ -25,13 +25,6 @@
     width: 100%;
 }
 
-.image-div {
-    flex: 0 0 calc(25% - 10px); /* Asegura que haya 3 columnas en una fila con márgenes */
-    margin: 0;
-    text-align: center;
-    border: 1px solid #858585;
-   
-}
 
 img {
     max-width: 100%;
@@ -57,74 +50,133 @@ img {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.image-div {
+  flex: 0 0 calc(25% - 10px); /* Asegura que haya 3 columnas en una fila con márgenes */
+  margin: 0;
+  text-align: center;
+  border: 1px solid #858585;
+  position: relative; /* Agrega una posición relativa para crear un contexto para elementos posicionados internos */
+}
+
 .image-text1 {
-  position: relative;
-  top: -390px;
-  left: -100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
   font-family: 'Actor', sans-serif;
   color: white;
   max-width: 100%;
+  text-align: center;
 }
 
 .image-text2 {
-  position: relative;
-  top: -390px;
-  left: -100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
   font-family: 'Actor', sans-serif;
   color: white;
+  max-width: 100%;
+  text-align: center;
 }
 
+
 .image-text3 {
-  position: relative;
-  top: -390px;
-  left: -100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
   font-family: 'Actor', sans-serif;
   color: white;
+  max-width: 100%;
+  text-align: center;
 }
 
 .image-text4 {
-  position: relative;
-  top: -390px;
-  left: -100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
   font-family: 'Actor', sans-serif;
   color: white;
-}
-.image-text5 {
-  position: relative;
-  top: -390px;
-  left: -100px;
-  font-family: 'Actor', sans-serif;
-  color: white;
-}
-.image-text6 {
-  position: relative;
-  top: -390px;
-  left: -100px;
-  font-family: 'Actor', sans-serif;
-  color: white;
-}
-.image-text7 {
-  position: relative;
-  top: -390px;
-  left: -100px;
-  font-family: 'Actor', sans-serif;
-  color: white;
-}
-.image-text8 {
-  position: relative;
-  top: -390px;
-  left: -100px;
-  font-family: 'Actor', sans-serif;
-  color: white;
+  max-width: 100%;
+  text-align: center;
 }
 
-.allushin {
-  position: relative;
-  top: -390px;
-  left: -100px;
+.image-text5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
   font-family: 'Actor', sans-serif;
   color: white;
+  max-width: 100%;
+  text-align: center;
 }
+
+.image-text6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+  max-width: 100%;
+  text-align: center;
+}
+
+.image-text7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+  max-width: 100%;
+  text-align: center;
+}
+
+.image-text8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+  max-width: 100%;
+  text-align: center;
+}
+
+
+.allushin {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  font-family: 'Actor', sans-serif;
+  color: white;
+  max-width: 100%;
+  text-align: center;
+}
+
 .containerbaja {
    width: 100%;
   margin-right: auto;
@@ -133,3 +185,11 @@ img {
   padding-left: 15px;
 }
 
+@media (max-width: 991px) {
+  .image-div {
+      flex: 0 0 100%; /* Hace que los elementos ocupen todo el ancho de la fila en dispositivos más pequeños */
+      border:none;
+      align-items: center;
+      justify-content: center;
+  }
+}
