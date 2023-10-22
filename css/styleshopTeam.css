@@ -58,69 +58,70 @@ img {
 }
 
 .image-text1 {
-  position: absolute;
-  top: 700px;
-  left: 360px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
+  max-width: 100%;
 }
 
 .image-text2 {
-  position: absolute;
-  top: 700px;
-  left: 670px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
 
 .image-text3 {
-  position: absolute;
-  top: 700px;
-  left: 980px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
 
 .image-text4 {
-  position: absolute;
-  top: 700px;
-  left: 1290px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
 .image-text5 {
-  position: absolute;
-  top: 1040px;
-  left: 360px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
 .image-text6 {
-  position: absolute;
-  top: 1040px;
-  left: 670px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
 .image-text7 {
-  position: absolute;
-  top: 1040px;
-  left: 980px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
 .image-text8 {
-  position: absolute;
-  top: 1040px;
-  left: 1290px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
 
 .allushin {
-  position: absolute;
-  top: 1040px;
-  left: 820px;
+  position: relative;
+  top: -390px;
+  left: -100px;
   font-family: 'Actor', sans-serif;
   color: white;
 }
