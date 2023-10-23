@@ -1,6 +1,6 @@
 .icon-image {
-    width: 30px; /* Ajusta el ancho deseado */
-    height: 30px; /* Ajusta la altura deseada */
+    width: 30px; 
+    height: 30px; 
   }
   .image-container {
     display: flex;
@@ -16,11 +16,13 @@
 }
 
 .welcome-section {
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    text-align: center;
+  background-image: url('./Imagenes para proyecto p2/fondo about geng.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px; 
 }
+
 
 
 .about-section {

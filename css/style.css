@@ -1,16 +1,16 @@
 .icon-image {
-  width: 30px; /* Ajusta el ancho deseado */
-  height: 30px; /* Ajusta la altura deseada */
+  width: 30px; 
+  height: 30px; 
 }
 
 .slider {
     width: 100%;
     overflow: hidden;
-    margin-left: -20px; /* Ajusta el valor según tus necesidades */
+    margin-left: -20px; 
   }
 
   .slide {
-    margin-left: 20px; /* Ajusta el valor según tus necesidades, debe coincidir con el margen izquierdo del contenedor padre */
+    margin-left: 20px; 
   }
 
 .slider .slide-track {
@@ -49,25 +49,25 @@
     height: auto;
 }
 
-/* Cuando el ancho de la pantalla es menor a 1200px */
+
 @media (max-width: 1200px) {
     .img-fluid {
-        max-width: 100%; /* Puedes ajustar el porcentaje según tus necesidades */
+        max-width: 100%; 
         max-height: 100%;
     }
 }
 
 @media (max-width: 767px) {
     .img-fluid {
-        max-width: 100%; /* Puedes ajustar el porcentaje según tus necesidades */
+        max-width: 100%; 
         max-height: 100%;
     }
     .imgZAPATO {
-        max-width: 150%; /* Ajusta el valor para aumentar el ancho */
+        max-width: 150%; 
         max-height: 28%;
     }
     .img-fluid2 {
-        max-width: 105%; /* Puedes ajustar el porcentaje según tus necesidades */
+        max-width: 105%; 
         max-height: 100%;
     }
     
